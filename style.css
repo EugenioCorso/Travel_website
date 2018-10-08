@@ -1,0 +1,59 @@
+h1, h3{
+	text-align: center;
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+}
+
+.bg {
+	/* The image used */
+	background-image: url("world.jpg");
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/*background of the signin page*/
+#signinbg {
+	/* The image used */
+	background-image: url("road.jpg");
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#menu{
+	background-color: 3A3535;
+}
+
+.sidenav {
+	opacity: 0.9;
+	height: 100%;
+	width: 120px;/*8%;*/
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+#signinform{
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+#reservation{
+	border-radius: 5px;
+	background-color: #c2e7ca;
+	padding: 20px;
+}
